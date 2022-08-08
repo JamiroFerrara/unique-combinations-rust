@@ -1,7 +1,7 @@
 use itertools::Itertools;
 
 fn main() {
-    let characters = vec!["1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d"];
+    let characters = vec!["1", "2", "3", "4", "5"];
     let n = 4;
     
     let combinations : Vec<_> = (2..n).fold(
